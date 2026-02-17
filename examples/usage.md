@@ -3,10 +3,19 @@
 ## Basic conversion
 
 ```
-/url-to-markdown https://example.com
+/url-to-markdown https://developers.cloudflare.com/browser-rendering/
 ```
 
-Fetches `https://example.com` and returns the page content as clean Markdown.
+Fetches `https://developers.cloudflare.com/browser-rendering/` and returns the page content as clean Markdown:
+
+```markdown
+title: Browser Rendering
+description: Control headless browsers with Cloudflare's Workers Browser Rendering API...
+
+# Browser Rendering
+
+Control headless browsers with Cloudflare's Workers Browser Rendering API. Automate tasks, take screenshots, convert pages to PDFs, and test web apps.
+```
 
 ## Keep images
 

@@ -1,6 +1,8 @@
-# Markdown.new:  url-to-markdown
+# Markdown.new: url-to-markdown
 
 A Claude Code skill that converts any URL to clean Markdown using the [markdown.new](https://markdown.new) API.
+
+Built by [Emre Elbeyoglu](https://x.com/elbeyoglu) for the markdown.new community.
 
 ## Install
 
@@ -22,11 +24,11 @@ cp -r url-to-markdown-skill .claude/skills/url-to-markdown
 /url-to-markdown <url> [--images] [--browser] [--json]
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--images` | Keep images in the markdown output |
+| Flag        | Description                                |
+| ----------- | ------------------------------------------ |
+| `--images`  | Keep images in the markdown output         |
 | `--browser` | Force browser rendering for JS-heavy sites |
-| `--json` | Return full JSON response with metadata |
+| `--json`    | Return full JSON response with metadata    |
 
 ## How it works
 

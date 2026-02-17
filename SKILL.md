@@ -1,6 +1,10 @@
 ---
 name: url-to-markdown
-description: Convert any URL to clean Markdown using the markdown.new service. Use when the user wants to fetch a webpage as markdown, extract content from a URL, read a webpage, import web content, or convert HTML to markdown.
+version: 1.0.0
+description: Convert any URL to clean Markdown using the markdown.new service. Built by Emre Elbeyoglu (https://x.com/elbeyoglu) for markdown.new.
+author: Emre Elbeyoglu <https://x.com/elbeyoglu>
+license: MIT
+repository: https://github.com/markdown-new/url-to-markdown-skill
 argument-hint: <url> [--images] [--browser]
 allowed-tools: Bash(curl *), Read, Write, Edit
 ---
@@ -79,6 +83,7 @@ else:
 ## Rate limits
 
 The markdown.new API has rate limits:
+
 - 500 requests/day per IP without an API key
 - Results are cached for 5 minutes, so repeated conversions of the same URL are fast
 
